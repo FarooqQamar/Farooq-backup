@@ -1,1 +1,104 @@
-as
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Day Hospital</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #F5F0F0;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #265775;
+        }
+        header {
+            background-color: #265775;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 10px 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #F5F0F0;
+        }
+        main {
+            padding: 40px;
+        }
+        section {
+            background: url('infusion.jpg') no-repeat center center/cover;
+            color: white;
+            padding: 60px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            max-width: 800px;
+            margin: auto;
+        }
+        footer {
+            background-color: #265775;
+            color: white;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            font-size: 16px;
+        }
+        /* Button Fix */
+        .nav-button {
+            background-color: #265775;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .nav-button:hover {
+            background-color: #1c4358;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Day Hospital</h1>
+        <nav>
+            <ul>
+                <li><a href="iron-infusion.html" class="nav-button">Iron Infusion</a></li>
+                <li><a href="vitamin-b12-injection.html">Vitamin B12 Injection</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2 style="color: #265775;">Welcome to the Day Hospital Website</h2>
+            <p style="color: #265775;">This website provides information on Iron Infusion and Vitamin B12 Injection in a Day Hospital setting.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Day Hospital Protocols. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
